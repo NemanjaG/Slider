@@ -1,0 +1,29 @@
+#slide-tpl {
+  max-width: 800px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#controller ul {
+  display: block;
+  float: right;
+}
+
+.img-slide {
+  max-width: 800px;
+  display: block;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  visibility: hidden;
+}
+
+.active-slide {
+  visibility: visible;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+}
